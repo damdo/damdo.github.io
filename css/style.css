@@ -1,0 +1,504 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+    font-family: 'GarageGothic';
+    font-weight: 300;
+    src: url(../fonts/GarageGothic_Regular.otf);
+}
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'GarageGothic';
+    color: black;
+    font-size: 16px;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    margin: 0 0 35px;
+    font-family: 'GarageGothic';
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+.brand-heading {
+    margin: 0 0 20px;
+}
+.didasc {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 8px;
+}
+.bio {
+    font-family: 'Helvetica Neue', Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+h2 {
+    margin: 0 0 35px;
+    font-family: 'GarageGothic';
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.desc1 {
+    font-family: 'GarageGothic';
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.desc2 {
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.copyr {
+    font-family: 'Helvetica Neue';
+    font-size: 1em;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #000000;
+}
+.light {
+    font-weight: 400;
+}
+.me p {
+    margin: 0;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+}
+.me {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.me img {
+    /*margin: 0 auto;*/
+    
+    display: inline;
+    width: 259px;
+    height: 259px;
+    border: 4px solid #000000;
+}
+.modal p {
+    text-align: center;
+    font-family: 'GarageGothic';
+    font-style: normal;
+    font-size: 12pt;
+    src: url(../fonts/GarageGothic_Regular.otf);
+}
+.modal button {
+    color: #000000;
+    background-color: #fff;
+    border-color: #000000;
+    text-transform: lowercase;
+}
+.modal button:hover,
+.modal button:focus,
+.modal button:active {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    text-transform: lowercase;
+}
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+.modal-content {
+    width: inherit;
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 27px;
+    line-height: 61px;
+    color: #000000;
+    background-color: #fff;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
+}
+ul.social-buttons-dam li a:hover,
+ul.social-buttons-dam li a:focus,
+ul.social-buttons-dam li a:active {
+    color: #fff;
+    background-color: #000000;
+}
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 0 0;
+    text-align: center;
+    color: #000000;
+    
+    background-image: url('../img/geometry.png');
+    background-repeat: repeat;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.intro .intro-body {
+    display: table-cell;
+}
+.intro .intro-body .brand-heading {
+    font-size: 75px !important;
+    letter-spacing: 3px !important;
+}
+.brand-heading:hover {
+    color: #000000;
+    cursor: pointer;
+}
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255, 255, 255, .1);
+}
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'GarageGothic';
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-default {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #000000;
+    outline: 0;
+    color: #000000;
+    background-color: #000000;
+}
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+footer {
+    padding: 15px 0;
+}
+footer p {
+    margin: 0;
+}
+
+img::selection {
+    background: 0 0;
+}
+img::-moz-selection {
+    background: 0 0;
+}
+img:hover {
+    cursor: pointer;
+}
+body {
+    webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+}
+.tooltip-inner {
+    background-color: #000000;
+    color: #fff;
+}
+.tooltip.top .tooltip-arrow {
+    border-top-color: #000000;
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #000000;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #000000;
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #000000;
+}
+.intro a {
+    opacity: 0.9 !important;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+/* ---- grid ---- */
+
+.grid {
+    background: #DDD;
+}
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    width: 33.333%;
+}
+.grid-item {
+    float: left;
+}
+.grid-item img {
+    display: block;
+    max-width: 100%;
+}
+#selectable {
+    font-size: 1.5em;
+}
+.arrow-more:after {
+    background-image: url(../img/arrow-black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -8em;
+    content: '';
+    display: block;
+    height: 2em;
+    left: 50%;
+    margin: 0 0 0 -0.75em;
+    position: absolute;
+    width: 2em;
+}
+/* avatar image bw filter */
+
+.bnw {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+.natural {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+::selection {
+    background: #000000;
+    color: white;
+}
+::-moz-selection {
+    background: #000000;
+    color: white;
+}
+#particles canvas {
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}
+
+
+/* RESPONSIVENESS BEHAVIOUR*/
+
+@media(min-width:768px) and (min-height:769px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+    .intro-body {
+        margin-top: 3em;
+    }
+}
+
+@media (min-height: 835px), (max-width: 767px) {
+    .know {
+        display: block !important;
+    }
+}
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+@media(max-width:767px) {
+    .intro {
+        padding-top: 2%;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 50px !important;
+    }
+    .intro .intro-body {
+        padding-top: 1%;
+    }
+    ul.banner-social-buttons li {
+        : block;
+        display margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+    ul.social-buttons li a {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+        line-height: 41px;
+    }
+    .me img {
+        width: 199px;
+        height: 199px;
+    }
+    .desc1 {
+        font-size: 28px;
+    }
+    .desc2 {
+        font-size: 15px;
+    }
+    .copyr {
+        font-family: 'Helvetica Neue';
+        font-size: 1em;
+    }
+    .bio {
+        font-size: 0.8em;
+    }
+}
+@media(max-width:399px) {
+    .me img {
+        width: 150px;
+    }
+    .desc1 {
+        font-size: 22px;
+    }
+    .didasc {
+        font-size: 0.6em;
+    }
+    .intro {
+        padding-bottom: 9vh;
+    }
+}
+/* iphone4 and smaller*/
+
+@media(max-width: 325px) {
+    ul.social-buttons li a {
+        width: 35px;
+        height: 35px;
+        font-size: 17px;
+        line-height: 31px;
+    }
+}

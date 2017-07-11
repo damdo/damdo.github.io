@@ -1,0 +1,215 @@
+/* PORTFOLIO CSS */
+
+.caption-style-1 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px !important;
+    max-width: 1695px;
+    width: 97%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.caption-style-1 li {
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.caption-style-1 li .caption p {
+    opacity: 0;
+    margin-top: 9px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.portfolio-links, .portfolio-links:hover, .portfolio-links:visited {
+    color: yellow !important;
+    font-family: GarageGothic;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    position: absolute;
+    bottom: 35px;
+    left: 41%;
+    cursor: pointer;
+}
+
+.caption-style-1 li:hover .caption, .caption-style-1 li:hover .caption p {
+    opacity: 1;
+}
+
+.caption-style-1 img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: -2;
+    width: 400px;
+    height: 300px;
+}
+
+.caption-style-1 .caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 1;
+    top: 220px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.caption-style-1 img {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.caption-style-1 li:hover .caption {
+    opacity: 1;
+    transform: translateY(-220px);
+    -webkit-transform: translateY(-220px);
+    -moz-transform: translateY(-220px);
+    -ms-transform: translateY(-220px);
+    -o-transform: translateY(-220px);
+}
+
+
+.caption-style-1 li:hover img {
+    transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+}
+
+
+.caption-style-1 .blur {
+    background-color: #393939;
+    height: 300px;
+    width: 400px;
+    z-index: 5;
+    position: absolute;
+}
+
+.caption-style-1 .caption-text h1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.caption-style-1 .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    top: 14px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.container-a1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+.outer-cat-header {
+    text-align: center;
+}
+.cat-header {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.techies {
+    font-weight: 600;
+    font-family: monospace;
+    display: block;
+    font-size: 16px;
+    margin-top: 15px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+
+@media(max-width:599px) {
+    .caption-style-1,
+    .caption-style-1 li,
+    .caption-style-1 img {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    .caption-style-1 .blur, .caption-style-1 .caption, .caption-style-1 .caption-text {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    .caption-style-1 li {
+        margin: 0;
+    }
+}
+
+
+
+
+/* PORTFOLIO -> MORE MENU RULES*/
+
+.cbp-spmenu {
+    background: white;
+    position: fixed;
+    border-left: 5vw solid #393939;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+.cbp-spmenu-vertical {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-right {
+    right: -100%;
+}
+.cbp-spmenu-right.cbp-spmenu-open {
+    right: 0%;
+}
+
+/* Transitions */
+.cbp-spmenu {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+/* PORTFOLIO -> MORE CONTENT RULES*/
+
+.more-elem{
+    padding: 5vw;
+}
+
+.more-elem .more-title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+

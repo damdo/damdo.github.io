@@ -31,7 +31,7 @@
 
 .portfolio-links, .portfolio-links:hover, .portfolio-links:visited {
     color: yellow !important;
-    font-family: GarageGothic;
+    font-family: 'ggr';
     font-size: 24px;
     letter-spacing: 1.5px;
     position: absolute;

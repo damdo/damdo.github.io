@@ -5,14 +5,14 @@
  */
 
 @font-face {
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-weight: 300;
-    src: url(../fonts/GarageGothic_Regular.otf);
+    src: url(../fonts/ggr.woff);
 }
 body {
     width: 100%;
     height: 100%;
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     color: black;
     font-size: 16px;
 }
@@ -22,7 +22,7 @@ html {
 }
 h1 {
     margin: 0 0 35px;
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-weight: 550;
     letter-spacing: 1px;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 h2 {
     margin: 0 0 35px;
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-weight: 550;
     letter-spacing: 1px;
 }
@@ -49,7 +49,7 @@ p {
     line-height: 1.5;
 }
 .desc1 {
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-size: 35px;
     letter-spacing: 1px;
     padding-bottom: 0px;
@@ -100,10 +100,10 @@ a:focus {
 }
 .modal p {
     text-align: center;
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-style: normal;
     font-size: 12pt;
-    src: url(../fonts/GarageGothic_Regular.otf);
+    src: url(../fonts/ggr.woff);
 }
 .modal button {
     color: #000000;
@@ -266,7 +266,7 @@ ul.social-buttons-dam li a:active {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: 'GarageGothic';
+    font-family: 'ggr';
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

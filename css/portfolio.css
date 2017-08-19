@@ -38,6 +38,7 @@
     bottom: 35px;
     left: 41%;
     cursor: pointer;
+    display: none;
 }
 
 .caption-style-1 li:hover .caption, .caption-style-1 li:hover .caption p {

@@ -338,7 +338,6 @@
                 </li>
             </ul>
         </div>
-
         <!--  BLOCK7 -->
         <div class="container-a1">
             <ul class="caption-style-1">
@@ -372,7 +371,6 @@
                 </li>
             </ul>
         </div>
-
         <!--  BLOCK8 -->
         <div class="container-a1">
             <ul class="caption-style-1">
@@ -408,129 +406,132 @@
     <script type="text/javascript" src="js/misc.js"></script>
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- bootstrap.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- To scroll on id link click -->
     <script src="https://cdn.jsdelivr.net/npm/page-scroll-to-id@1.5.8/jquery.malihu.PageScroll2id.min.js"></script>
+    <!-- CUSTOM JQUERY effects -->
     <script>
-    $(document).ready(function() {
-        // Enable Tooltips
-        $('#email').tooltip();
+        $(document).ready(function() {
+            // Enable Tooltips
+            $('#email').tooltip();
 
-        $("#myface").mouseenter(function() {
-            $(this).addClass("bnw");
-        })
-        $("#myface").mouseleave(function() {
-            $(this).removeClass("bnw");
-        })
-        //add pagescroll on id click
-        $("a[href*='#']").mPageScroll2id({ scrollSpeed: 450, offset: 40 });
+            $("#myface").mouseenter(function() {
+                $(this).addClass("bnw");
+            })
+            $("#myface").mouseleave(function() {
+                $(this).removeClass("bnw");
+            })
+            //add pagescroll on id click
+            $("a[href*='#']").mPageScroll2id({ scrollSpeed: 450, offset: 40 });
 
-        // compute copyright year
-        yearComputation()
+            // compute copyright year
+            yearComputation()
 
-        // $("#showe1").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem1").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe2").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem2").addClass('cbp-spmenu-open');
-        // });
-
-
-        // $("#showe3").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem3").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe4").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem4").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe1").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem1").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe2").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem2").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe5").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem5").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe6").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem6").addClass('cbp-spmenu-open');
-        // });
-
-        // $("#showe7").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem7").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe8").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem8").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe3").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem3").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe4").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem4").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe9").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem9").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe10").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem10").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe5").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem5").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe6").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem6").addClass('cbp-spmenu-open');
+            // });
+
+            // $("#showe7").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem7").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe8").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem8").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe11").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem11").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe12").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem12").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe9").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem9").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe10").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem10").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe13").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem13").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe14").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem14").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe11").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem11").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe12").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem12").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe15").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem15").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe16").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem16").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe13").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem13").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe14").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem14").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe17").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem17").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe18").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem18").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe15").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem15").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe16").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem16").addClass('cbp-spmenu-open');
+            // });
 
 
-        // $("#showe19").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem19").addClass('cbp-spmenu-open');
-        // });
-        // $("#showe20").click(function() {
-        //     $(this).addClass('active');
-        //     $("#elem20").addClass('cbp-spmenu-open');
-        // });
+            // $("#showe17").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem17").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe18").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem18").addClass('cbp-spmenu-open');
+            // });
 
 
-        $(".insidetoggle").click(function() {
-            $(this).removeClass('active');
-            $("[id^='elem']").removeClass('cbp-spmenu-open');
+            // $("#showe19").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem19").addClass('cbp-spmenu-open');
+            // });
+            // $("#showe20").click(function() {
+            //     $(this).addClass('active');
+            //     $("#elem20").addClass('cbp-spmenu-open');
+            // });
+
+
+            $(".insidetoggle").click(function() {
+                $(this).removeClass('active');
+                $("[id^='elem']").removeClass('cbp-spmenu-open');
+            });
         });
-    });
     </script>
 
 

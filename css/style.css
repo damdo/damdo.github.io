@@ -480,7 +480,7 @@ body {
 }
 @media(max-width:399px) {
     .me img {
-        width: 150px;
+        /*width: 150px;*/
     }
     .desc1 {
         font-size: 22px;

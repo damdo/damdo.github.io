@@ -400,6 +400,40 @@ body {
     z-index: -1000;
 }
 
+.tmphead {
+    font-weight: 600;
+/*    font-style: italic;*/
+    text-transform: uppercase;
+/*    text-decoration: underline;*/
+    font-size: 18px;
+    /*color: #002ee8;*/
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    width: 30rem;
+}
+
+.tmpprop {
+    /*text-decoration: underline;*/
+    color: #002ee8;
+}
+
+.tmpport {
+    white-space: pre-line;
+    word-break: keep-all;
+    text-align: left;
+    max-width: 800px;
+    background-color: white;
+    border: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.tmplinks {
+    color: blue;
+    text-decoration: underline;
+}
 
 /* RESPONSIVENESS BEHAVIOUR*/
 

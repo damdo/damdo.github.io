@@ -435,6 +435,10 @@ body {
     text-decoration: underline;
 }
 
+.tmpproj {
+    font-weight: 800;
+}
+
 /* RESPONSIVENESS BEHAVIOUR*/
 
 @media(min-width:768px) and (min-height:769px) {

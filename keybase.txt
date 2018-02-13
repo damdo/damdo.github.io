@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/damdo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://damianodonati.com
+  * I am damdo (https://keybase.io/damdo) on keybase.
+  * I have a public key ASDntGuHED7dJl8OChn0FCoB1GLvYZsqqSSXhxBagMYHigo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e7b46b87103edd265f0e0a19f4142a01d462ef619b2aa9249787105a80c6078a0a",
+      "host": "keybase.io",
+      "kid": "0120e7b46b87103edd265f0e0a19f4142a01d462ef619b2aa9249787105a80c6078a0a",
+      "uid": "f0e8ecbc40372a89a8eebd0d6d7a9719",
+      "username": "damdo"
+    },
+    "merkle_root": {
+      "ctime": 1518537644,
+      "hash": "09fe530b2aff418bebdae58ecd8d0a713dfd81fa218dcee9ee2d3949b45b61cc32c59d50777d6b17325c5e7d52ccbe50beec205f09f1864e34348300b750e69d",
+      "hash_meta": "d2355d235bb487e2057901d50f5ad8278e553e813155cd6da33a46cdb0e45dca",
+      "seqno": 2076339
+    },
+    "service": {
+      "hostname": "damianodonati.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.40"
+  },
+  "ctime": 1518537653,
+  "expire_in": 504576000,
+  "prev": "4c9659889a6f322daac6ff0c1219f884a7e36ee1d1aee4d0c8014d4dc543fbff",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg57RrhxA+3SZfDgoZ9BQqAdRi72GbKqkkl4cQWoDGB4oKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTdiNDZiODcxMDNlZGQyNjVmMGUwYTE5ZjQxNDJhMDFkNDYyZWY2MTliMmFhOTI0OTc4NzEwNWE4MGM2MDc4YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTdiNDZiODcxMDNlZGQyNjVmMGUwYTE5ZjQxNDJhMDFkNDYyZWY2MTliMmFhOTI0OTc4NzEwNWE4MGM2MDc4YTBhIiwidWlkIjoiZjBlOGVjYmM0MDM3MmE4OWE4ZWViZDBkNmQ3YTk3MTkiLCJ1c2VybmFtZSI6ImRhbWRvIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE4NTM3NjQ0LCJoYXNoIjoiMDlmZTUzMGIyYWZmNDE4YmViZGFlNThlY2Q4ZDBhNzEzZGZkODFmYTIxOGRjZWU5ZWUyZDM5NDliNDViNjFjYzMyYzU5ZDUwNzc3ZDZiMTczMjVjNWU3ZDUyY2NiZTUwYmVlYzIwNWYwOWYxODY0ZTM0MzQ4MzAwYjc1MGU2OWQiLCJoYXNoX21ldGEiOiJkMjM1NWQyMzViYjQ4N2UyMDU3OTAxZDUwZjVhZDgyNzhlNTUzZTgxMzE1NWNkNmRhMzNhNDZjZGIwZTQ1ZGNhIiwic2Vxbm8iOjIwNzYzMzl9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZGFtaWFub2RvbmF0aS5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40MCJ9LCJjdGltZSI6MTUxODUzNzY1MywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI0Yzk2NTk4ODlhNmYzMjJkYWFjNmZmMGMxMjE5Zjg4NGE3ZTM2ZWUxZDFhZWU0ZDBjODAxNGQ0ZGM1NDNmYmZmIiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQN984KNusmIOds785E3vG8T5yuOS7TV3NSA7+nSGY/9ofmn29InTbXFaEJaCt1/IH5X+/FCe8FPaylNArqYTkQmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAmAJQhbCg1trc3L+JTwhZ+hUjkfJLZLYm9awRRIS0spqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/damdo
+
+==================================================================
